@@ -1,0 +1,210 @@
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+
+.wrapper {
+      max-width: 400px;
+      margin:50px auto;
+    }
+
+    .todo__title {
+      text-align: center;
+      font-size: 40px;
+      letter-spacing: 2px;
+      color: #e84b30;
+    }
+    
+    .todo__form {
+      width: 100%;
+      background-color: #95dee3;
+      border-radius: 10px;
+      padding: 15px 0;
+      box-sizing: border-box;
+    }
+
+    .todo__input {
+      width: 87%;
+      display: inline-block;
+      box-sizing: border-box;
+      border: none;
+      padding: 0 20px;
+      padding-left: 0;
+      background-color: #95dee3;
+      outline: none;
+      font-size: 25px;
+      font-weight: 200;
+      color: #e84b30;
+    }
+
+    .todo__input::-webkit-input-placeholder {
+      color: #5484a4;
+      font-weight: 200;
+    }
+
+    .todo__input:-moz-placeholder {
+      color: #5484a4;
+      font-weight: 200;
+    }
+    
+    .out-list {
+      width: 100%;
+      list-style: none;
+      padding: 0;
+    }
+
+    .out-list__item {
+      padding: 10px 20px;
+      margin-bottom: 5px;
+      font-size: 28px;
+      border-radius: 10px;
+      background-color: #d6452c;
+      color: #fff;
+    }
+    .out-list__item:hover .del-close{
+      opacity: 1;
+    }
+
+    .out-list__item-iner {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .out-list__item_done {
+      background-color: #5484a4;
+      color: #86b5d4;
+    }
+
+    .out-list__button {
+      text-align: center;
+      box-sizing: border-box;
+      padding: 8px 20px;
+      border: none;
+      font-size: 18px;
+      border-radius: 20px;
+      background-color: #49e83e;
+      text-decoration: none;
+      color: #88b04b;
+      margin: 10px 0 ;
+      flex: 3 1 70px;
+    }
+    .out-list__button:hover {
+      color: #3c4e21;
+    }
+    .out-list__content {
+      flex: 3 1 70%;
+    }
+    .action-button {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #95dee3;
+      border-radius: 10px;
+      padding: 5px 0;
+    }
+    .action-button__btn, .action-button__btn:active{
+      flex: 1 1 32%;
+      border: none;
+      background-color: transparent;
+      outline: none;
+      border-right: 1px solid #5484a4;
+      padding: 5px 0;
+      text-align: center;
+      text-decoration: none;
+      color: #272727;
+    }
+    .action-button__btn:last-child {
+      border-right: none;
+    }
+    .action-button__btn:hover {
+      color: #d6452c;
+    }
+
+.edit-imp {
+  background-color: transparent;
+  margin: 10px 0;
+  width: 100%;
+  outline: -webkit-focus-ring-color auto 5px;
+  border: none;
+  font-size: 28px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.footer__info {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0 20px;
+  list-style: none;
+}
+.footer__btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #95dee3;
+  text-decoration: none;
+  color: #272727;
+}
+.footer__btn:hover {
+  color: #5484a4;
+}
+
+.del-close {
+  opacity: 0;
+  /*display: block;*/
+  border: none;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #3399ce;
+  margin-right: 5px;
+}
+.del-close:hover {
+  background-color: red;
+}
+
+.arrow-down, .arrow-down:active {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: inline-block;
+  width: 8%;
+  height: 34px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #79b5b9;
+  text-align: center;
+}
+
+.arrow-down:hover {
+  color: #517b7d;
+}
+.active_btn {
+  color: #d6452c;
+}
